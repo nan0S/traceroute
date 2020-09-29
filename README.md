@@ -19,4 +19,4 @@ Example output:
 ```
 
 ##### Output clarification
-ICMP packets are sent with ascending value of TTL (Time To Live). If we do not get any response, we print '*'. Otherwise every IP address that responded is displayed. If we get as many responses as we sent requests in within timespan (default 1 second), there will be additonally displayed mean answer time. Otherwise '???' will be displayed.
+**ICMP packets** are sent with ascending value of **TTL** (Time To Live). If we do not get any response, we print ```*```. Otherwise every IP address that responded is displayed. If we get as many responses as we sent requests in within timespan (default 1 second), there will be additonally displayed mean answer time. Otherwise ```???``` will be displayed.
